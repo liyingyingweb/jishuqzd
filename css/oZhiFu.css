@@ -1,0 +1,24 @@
+.zhifu { width: 100vw; padding: 0 0.1rem 0 0.1rem; box-sizing: border-box; }
+.zhifu .zffs { height: 0.47rem; background: white; line-height: 0.47rem; font-size: 0.16rem; color: black; }
+.zhifu .zhifufangshi { height: 1.32rem; background: #f1f9ff; padding: 0.275rem 0 0 0.13rem; box-sizing: border-box; overflow: hidden; }
+.zhifu .zhifufangshi .zhifu-i { width: 1.245rem; height: 0.875rem; float: left; position: relative; }
+.zhifu .zhifufangshi .zhifu-i :hover { border: 0.03px solid #3698d9; }
+.zhifu .zhifufangshi .zhifu-i .zhifubao { display: block; width: 1.24rem; height: 0.44rem; background: url(../images/zhifubao_03.jpg) no-repeat; background-size: 100% 100%; }
+.zhifu .zhifufangshi .zhifu-i p { width: 0.25rem; height: 0.25rem; border: 0.01rem solid #dddddd; box-sizing: border-box; border-radius: 50%; position: absolute; left: 50%; bottom: 0; margin-left: -0.125rem; }
+.zhifu .zhifufangshi .zhifu-i p span { display: block; color: #dddddd; font-size: 0.16rem; text-align: center; line-height: 0.25rem; }
+.zhifu .zhifufangshi .zhifu-i .weixinzhifu { display: block; width: 1.24rem; height: 0.44rem; background: url(../images/weixinzhifu_05.jpg) no-repeat; background-size: 100% 100%; }
+.zhifu .zhixinjiesuan { height: 0.9rem; }
+.zhifu .zhixinjiesuan p { height: 0.45rem; border-bottom: 0.01rem solid #dddddd; box-sizing: border-box; line-height: 0.45rem; font-size: 0.16rem; }
+.zhifu .zhu { height: 0.3rem; margin-top: 0.2rem; font-size: 0.10rem; color: #ff6f6f; }
+.zhifu .fo-nbsp { font-size: 0.2rem; height: 0.25rem; }
+.zhifu .enter { display: block; border-radius: 0.03rem; height: 0.35rem; background: #3698d9; font-size: 0.18rem; color: white; text-align: center; line-height: 0.35rem; }
+
+footer { width: 100vw; height: 0.5rem; background-color: white; display: flex; position: fixed; bottom: 0; }
+footer > div { flex: 1; }
+footer .footer-bom { width: 0.4rem; height: 0.43rem; margin: 0.1rem auto; box-sizing: border-box; }
+footer .footer-bom p { float: left; font-size: 0.3rem; text-align: center; margin-top: 0.05rem; }
+footer .footer-bom p a { display: block; font-size: 0.1rem; color: #666666; width: 0.4rem; text-align: center; }
+footer > div a { display: block; width: 0.18rem; height: 0.17rem; margin: 0 auto; }
+footer > div a img { width: 0.175rem; height: 0.175rem; vertical-align: text-top; }
+
+/*# sourceMappingURL=oZhiFu.css.map */

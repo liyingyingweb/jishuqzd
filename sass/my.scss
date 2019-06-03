@@ -1,0 +1,150 @@
+$margin: 0;
+$padding: 0;
+$width: 100%;
+$height: 100%;
+body,html,p,span,a,ul,li{
+    margin: $margin;
+    padding: $padding;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: $width;
+    height: $height;
+    font-size: 0.16rem;
+    padding-bottom: 0.6rem;
+}
+html{
+    width: $width;
+    font-size: 100px;
+}
+@media screen and (min-width:360px){
+    html{
+        font-size: 112.5px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size: 117.2px;
+    }
+}
+@media screen and (min-width:414px){
+    html{
+        font-size: 129.4px;
+    }
+}
+$border-color: #dddddd;
+.wrap{
+    width: $width;
+}
+.wrap .header_top{
+    width: $width;
+    height: 0.42rem;
+}
+.wrap .header{
+    height: 1.3rem;
+    text-align: center;
+    background: #3698d9;
+    padding: 0.3rem 0 0 0;
+    img{
+        width: 0.73rem;
+        height: 0.71rem;
+    }
+    a{
+        color: white;
+        display: block;
+        padding-top: 0.05rem;
+    }
+}
+.wrap .nav{
+    padding: 0 0.2rem 0.48rem 0.2rem;
+    box-sizing: border-box;
+    ul{
+        display: flex;
+    }
+    li{
+        line-height: 0.48rem;
+        border-bottom: 0.01rem solid $border-color;
+    }
+    li:nth-child(1){
+        flex: 1;
+    }
+    li:nth-child(2){
+        flex: 4;
+    }
+    li:nth-child(3){
+        flex: 3;
+    }
+    a{
+        color: #333333;
+    }
+    img{
+        width: 0.2rem;
+        height: 0.17rem;
+        vertical-align: middle;
+    }
+}
+.wrap .main{
+    .main_menu{
+        background: #dddddd;
+        padding: 0 0.2rem;
+        box-sizing: border-box;
+    }
+    .main_menu ul{
+        display: flex;
+    }
+    .main_menu:nth-child(2){
+        background: white;
+        margin-bottom: 0.35rem;
+        border-bottom: 0.01rem solid $border-color;
+    }
+    li{
+        line-height: 0.48rem;
+    }
+    li:nth-child(1){
+        flex: 1;
+    }
+    li:nth-child(2){
+        flex: 7;
+    }
+    li:nth-child(3){
+        font-size: 0.28rem;
+        a{
+            color: #3698d9;
+        }
+    }
+    a{
+        color: #333333;
+    }
+    img{
+        width: 0.2rem;
+        height: 0.16rem;
+        vertical-align: middle;
+    }
+}
+.footer{
+    width: $width;
+    height: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: white;
+    padding: 0.05rem 0 0.5rem 0;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #dddddd;
+    ul{
+        display: flex;
+    }
+    li{
+        flex: 1;
+    }
+    a{
+        color: #a0a0a0;
+        font-size: 0.12rem;
+    }
+    img{
+        width: 0.19rem;
+        height: 0.21rem;
+    }
+}

@@ -1,0 +1,135 @@
+$margin: 0;
+$padding: 0;
+$width: 100%;
+$height: 100%;
+body,html,p,span,a,ul,li{
+    margin: $margin;
+    padding: $padding;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: $width;
+    height: $height;
+    font-size: 0.16rem;
+}
+html{
+    width: $width;
+    font-size: 100px;
+}
+@media screen and (min-width:360px){
+    html{
+        font-size: 112.5px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size: 117.2px;
+    }
+}
+@media screen and (min-width:414px){
+    html{
+        font-size: 129.4px;
+    }
+}
+$border-color: #dddddd;
+.wrap{
+    width: $width;
+}
+.wrap .header{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    background: #3698d9;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    a{
+        color: white;
+    }
+    a:nth-child(1){
+        flex: 2;
+    }
+    a:nth-child(3){
+        flex: 2;
+    }
+    p{
+        flex: 6;
+        color: white;
+        font-size: 0.18rem;
+    }
+    a span{
+        font-size: 0.3rem;
+    }
+}
+.wrap .empty{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.wrap .nav{
+    padding: 0 0.2rem 0.48rem 0.2rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    ul{
+        display: flex;
+    }
+    li{
+        line-height: 0.48rem;
+        border-bottom: 0.01rem solid $border-color;
+    }
+    li:nth-child(1){
+        flex: 1;
+    }
+    .touxiang{
+        color: #3698d9;
+        font-size: 0.22rem;
+    }
+    a{
+        color: #333333;
+    }
+    .weitianxie{
+        color: #b6b6b6;
+    }
+    img{
+        width: 0.24rem;
+        height: 0.24rem;
+        vertical-align: middle;
+    }
+}
+.footer{
+    width: $width;
+    height: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: white;
+    box-sizing: border-box;
+    li{
+       height: 0.5rem;
+       line-height: 0.5rem;
+       border-bottom: 0.01rem solid $border-color; 
+    }
+    li:nth-child(2){
+        border-bottom: 0.04rem solid #dbdbdb;
+        padding-bottom: 0.1rem;
+        box-sizing: border-box;
+    }
+    li:nth-child(3){
+        color: #3698d9;
+        border-top: 0.01rem solid #979797;
+        box-sizing: border-box;
+    }
+    a{
+        color: #3698d9;
+    }
+    .photograph{
+        color: #fc5a57;
+    }
+}

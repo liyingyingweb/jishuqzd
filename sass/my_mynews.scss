@@ -1,0 +1,153 @@
+$margin: 0;
+$padding: 0;
+$width: 100%;
+$height: 100%;
+body,html,p,span,a,ul,li{
+    margin: $margin;
+    padding: $padding;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: $width;
+    height: $height;
+    font-size: 0.16rem;
+    padding-bottom: 0.6rem;
+}
+html{
+    width: $width;
+    font-size: 100px;
+}
+@media screen and (min-width:360px){
+    html{
+        font-size: 112.5px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size: 117.2px;
+    }
+}
+@media screen and (min-width:414px){
+    html{
+        font-size: 129.4px;
+    }
+}
+$border-color: #dddddd;
+.wrap{
+    width: $width;
+}
+.wrap .header{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    background: #3698d9;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    a{
+        color: white;
+        position: absolute;
+        top: 0rem;
+        left: 0.1rem;
+        span{
+            font-size: 0.3rem;
+        }
+    }
+    p{
+        font-size: 0.18rem;
+        color: white;
+        margin: 0 auto;
+    }
+}
+.wrap .main{
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    .main_inner{
+        padding: 0.1rem 0.1rem 0.2rem 0.1rem;
+        border-bottom: 0.01rem solid #dddddd;
+        box-sizing: border-box;
+        .main_top{
+            color: #333333;
+        }
+        .main_top p{
+            width: 1.5rem;
+            height: 0.22rem;
+            text-align: center;
+            line-height: 0.22rem;
+            margin: 0 auto;
+            font-size: 0.13rem;
+            color: white;
+            background: #d9d9d9;
+            border-radius: 0.04rem;
+        }
+        .main_top span{
+            display: block;
+            font-size: 0.14rem;
+            margin: 0.1rem 0 0rem 0;
+        }
+        .main_top span>a{
+            color: #3698d9;
+            font-size: 0.17rem;
+        }
+        .main_bottom{
+            height: 1.8rem;
+            padding: 0.1rem;
+            margin-top: 0.1rem;
+            background: #f4f4f4;
+            box-sizing: border-box;
+        }
+        .main_bottom a{
+            color: #333333;
+        }
+        .main_bottom p{
+            color: #bebebe;
+            font-size: 0.13rem;
+            padding: 0.05rem 0 0.1rem 0;
+            box-sizing: border-box;
+        }
+        .main_bottom a:nth-child(3){
+            color: #666666;
+            font-size: 0.13rem;
+        }
+        .main_bottom span{
+            color: #333333;
+            font-size: 0.13rem;
+            margin: 0.05rem 0;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .main_bottom .yusuan{
+            color: #3698d9;
+            font-size: 0.13rem;
+        }
+    }
+}
+.footer{
+    width: $width;
+    height: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: white;
+    padding: 0.05rem 0 0.5rem 0;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #dddddd;
+    ul{
+        display: flex;
+    }
+    li{
+        flex: 1;
+    }
+    a{
+        color: #a0a0a0;
+        font-size: 0.12rem;
+    }
+    img{
+        width: 0.19rem;
+        height: 0.21rem;
+    }
+}

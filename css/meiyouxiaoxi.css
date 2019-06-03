@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.clear {
+  clear: both; }
+
+html, body {
+  width: 100%;
+  font-size: 100px; }
+  @media screen and (min-width: 360px) {
+    html, body {
+      font-size: 112.5px; } }
+  @media screen and (min-width: 375px) {
+    html, body {
+      font-size: 117px; } }
+  @media screen and (min-width: 414px) {
+    html, body {
+      font-size: 129px; } }
+
+.wrap {
+  width: 100%;
+  font-size: 0.16rem; }
+  .wrap .top {
+    width: 100%;
+    height: 0.475rem;
+    background: #3698d9;
+    text-align: center;
+    line-height: 0.475rem;
+    position: fixed;
+    left: 0;
+    top: 0; }
+    .wrap .top h4 {
+      color: white;
+      font-weight: normal; }
+  .wrap .main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0.475rem; }
+    .wrap .main .zxlm {
+      text-align: center;
+      position: fixed;
+      left: 50%;
+      margin-left: -0.38rem;
+      top: 50%;
+      margin-top: -0.5rem; }
+      .wrap .main .zxlm img {
+        width: 0.76rem;
+        height: 0.76rem; }
+      .wrap .main .zxlm p {
+        font-size: 0.12rem;
+        color: #999999; }
+  .wrap .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: white; }
+    .wrap .footer ul {
+      display: flex; }
+      .wrap .footer ul li {
+        flex: 1;
+        text-align: center; }
+        .wrap .footer ul li a {
+          display: inline-block;
+          color: black; }
+          .wrap .footer ul li a img {
+            width: 0.2rem;
+            height: 0.2rem; }
+          .wrap .footer ul li a span {
+            display: block;
+            font-size: 0.12rem; }

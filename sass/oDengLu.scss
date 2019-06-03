@@ -1,0 +1,181 @@
+$html: 100px;
+$left: left;
+$right: right;
+
+html {
+	font-size: $html;
+}
+
+body {
+	background: white;
+}
+
+body,
+ul,
+div,
+img,
+p,
+a,
+h3,
+h4,
+span {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+// header
+header {
+	width: 100%;
+	height: 0.435rem;
+	background-color: #3698d9;
+	display: flex;
+	position: fixed;
+	top: 0;
+	
+	z-index: 2;
+
+	a {
+		display: block;
+		flex: 1;
+
+		font-size: 0.2rem;
+		line-height: 0.435rem;
+		color: white;
+		text-indent: 0.05rem;
+	}
+
+	p {
+		flex: 1.3;
+		font-size: 0.18rem;
+		line-height: 0.435rem;
+		color: white;
+	}
+}
+
+.username_login {
+	width: 100%;
+	padding: 0.18rem 0.1rem 0 0.1rem;
+	box-sizing: border-box;
+	margin-top: 0.4rem;
+
+	.input-container {
+		width: 95vw;
+		height: 0.63rem;
+		font-size: 0.16rem;
+		// padding-top: .1rem;
+		// padding-bottom: .1rem;
+		border-bottom: 0.01rem solid #dddddd;
+		box-sizing: border-box;
+
+		p {
+			margin: 0.05rem 0 0.05rem 0;
+		}
+
+		input {
+			width: 98%;
+			height: 0.33rem;
+			color: #222;
+			box-sizing: border-box;
+			font-family: PingFangSC-Semibold;
+			border: 0;
+			outline: none;
+		}
+	}
+
+	.nbsp {
+		font-size: 0.2rem;
+		height: 0.395rem;
+	}
+
+	.enter {
+		display: block;
+		border-radius: 0.03rem;
+		height: 0.35rem;
+		background: #3698d9;
+		font-size: 0.18rem;
+		color: white;
+		text-align: center;
+		line-height: 0.35rem;
+	}
+
+	.quick-nav {
+		height: 0.205rem;
+		margin-top: 0.225rem;
+		overflow: hidden;
+
+		.sms_quick {
+			float: left;
+			color: #3698d9;
+			font-size: 0.15rem;
+		}
+
+		.display {
+			float: right;
+			color: #3698d9;
+			font-size: 0.15rem;
+		}
+	}
+
+	.register {
+		height: 1.63rem;
+		margin-top: 0.66rem;
+		border-top: 0.01rem solid #dddddd;
+		box-sizing: border-box;
+
+		.login-go {
+			padding: 0.325rem 0 0;
+			text-align: center;
+			position: relative;
+
+			h4 {
+				font-size: 0.12rem;
+				font-weight: 400;
+				position: absolute;
+				top: -0.14rem;
+				left: 50%;
+				margin-left: -0.42rem;
+				background-color: #fff;
+				padding: 0.05rem 0.15rem;
+				color: #ccc;
+				box-sizing: border-box;
+			}
+
+			.disanfang {
+				display: flex;
+
+				.pic-qq {
+					display: block;
+					width: 0.48rem;
+					height: 0.48rem;
+					color: #616161;
+					margin: 0 0.15rem;
+					font-size: 0.14rem;
+
+					flex: 1;
+
+					i img {
+						width: 0.58rem;
+						height: 0.58rem;
+					}
+				}
+
+				.pic-vx {
+					display: block;
+					width: 0.48rem;
+					height: 0.48rem;
+					color: #616161;
+					margin: 0 0.15rem;
+					font-size: 0.14rem;
+
+					flex: 1;
+
+					i img {
+						width: 0.58rem;
+						height: 0.58rem;
+					}
+				}
+			}
+		}
+	}
+}

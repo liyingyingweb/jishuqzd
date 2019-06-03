@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+.zixun {
+    width: 95vw;
+    padding: 0.18rem 0.1rem 0 0.1rem;
+
+
+    .zixun-container {
+        width: 100%;
+        height: .63rem;
+        font-size: 0.16rem;
+        border-bottom: .01rem solid #dddddd;
+        box-sizing: border-box;
+
+        p {
+            margin: .05rem 0 .05rem 0;
+
+            span {
+                color: red;
+            }
+        }
+
+        input {
+            width: 98%;
+            height: 0.33rem;
+            color: #222;
+            box-sizing: border-box;
+            font-family: PingFangSC-Semibold;
+            border: 0;
+        }
+    }
+
+    .zixun-two {
+        width: 95%;
+        height: .63rem;
+        font-size: 0.16rem;
+        box-sizing: border-box;
+
+        .zixun-left {
+            width: 47.5%;
+            height: .63rem;
+            border-bottom: .01rem solid #dddddd;
+            float: left;
+
+            p {
+                margin: .05rem 0 .05rem 0;
+
+                span {
+                    color: red;
+                }
+            }
+
+            input {
+                border: 0;
+                width: 90%;
+            }
+        }
+
+        .zixun-right {
+            width: 47.5%;
+            height: .63rem;
+            border-bottom: .01rem solid #dddddd;
+            float: left;
+            margin-left: 5%;
+            box-sizing: border-box;
+
+            p {
+                margin: .05rem 0 .05rem 0;
+
+
+                span {
+                    color: red;
+                }
+            }
+
+            input {
+                width: 90%;
+                border: 0;
+            }
+        }
+    }
+
+    .zixun-footer {
+        width: 98%;
+        height: 1rem;
+        font-size: 0.16rem;
+        border-bottom: .01rem solid #dddddd;
+        box-sizing: border-box;
+
+        p:nth-child(2) {
+            color: #999999;
+            font-size: 0.13rem;
+        }
+
+        p {
+            margin: .05rem 0 .05rem 0;
+
+            span {
+                color: red;
+            }
+        }
+
+        input {
+            width: 99%;
+            height: 0.33rem;
+            color: #222;
+            box-sizing: border-box;
+            font-family: PingFangSC-Semibold;
+            border: 0;
+        }
+    }
+
+    .nbsp-zixun {
+        font-size: 0.2rem;
+        height: 0.35rem;
+    }
+
+    .enter {
+        box-sizing: border-box;
+        width: 100%;
+
+        display: block;
+        border-radius: 0.03rem;
+        height: 0.35rem;
+        background: #3698d9;
+        font-size: 0.18rem;
+        color: white;
+        text-align: center;
+        line-height: 0.35rem;
+    }
+
+    .teleiphone {
+        height: 1.63rem;
+        margin-top: 0.66rem;
+        border-top: 0.01rem solid #dddddd;
+        box-sizing: border-box;
+
+        .login-go {
+            padding: 0.325rem 0 0;
+            text-align: center;
+            position: relative;
+
+            h4 {
+                font-size: .12rem;
+                font-weight: 400;
+                position: absolute;
+                top: -.14rem;
+                left: 50%;
+                margin-left: -0.42rem;
+                background-color: #fff;
+                padding: .05rem .15rem;
+                box-sizing: border-box;
+                color: #ccc;
+            }
+
+            .disanfang {
+                display: flex;
+
+                .pic-qq {
+                    display: block;
+                    width: .48rem;
+                    height: .48rem;
+                    color: #616161;
+                    margin: 0 .15rem;
+                    font-size: .14rem;
+                    margin-left: 0.4rem;
+                    flex: 1;
+
+                    i img {
+                        width: .58rem;
+                        height: .58rem;
+                    }
+                }
+
+                .pic-vx {
+                    display: block;
+                    width: .48rem;
+                    height: .48rem;
+                    color: #616161;
+                    margin: 0 .15rem;
+                    font-size: .14rem;
+                    margin-right: 0.4rem;
+                    flex: 1;
+
+                    i img {
+                        width: .58rem;
+                        height: .58rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    width: 100vw;
+    height: 0.5rem;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+
+    >div {
+        flex: 1;
+    }
+
+    .footer-bom {
+        width: 0.4rem;
+        height: 0.43rem;
+        margin: 0.1rem auto;
+        box-sizing: border-box;
+
+        p {
+            float: left;
+            font-size: 0.3rem;
+            text-align: center;
+            margin-top: 0.05rem;
+
+            a {
+                display: block;
+                font-size: 0.1rem;
+                color: #666666;
+                width: 0.4rem;
+                text-align: center;
+            }
+        }
+    }
+
+    >div a {
+        display: block;
+        width: 0.18rem;
+        height: 0.17rem;
+        margin: 0 auto;
+
+        img {
+            width: 0.175rem;
+            height: 0.175rem;
+            vertical-align: text-top;
+        }
+
+
+
+    }
+
+
+
+
+}
